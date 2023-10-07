@@ -1,0 +1,32 @@
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    color: var(--color-black);
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+footer ul:nth-child(1) {
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer ul li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li a{
+    color: var(--color-black);
+}
