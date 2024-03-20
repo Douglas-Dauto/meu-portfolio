@@ -120,6 +120,20 @@ a {
     gap: 5px;
 }
 
+.sec-projects-faculty {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.sec-projects-faculty a {
+    margin-bottom: 15px;
+}
+
 @media (max-width: 914px) {
     .curriculum {
         height: auto;
@@ -149,5 +163,10 @@ a {
     .projects .projects__project-container {
         width: 90%;
         min-width: auto;
+    }
+
+    .sec-projects-faculty {
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
