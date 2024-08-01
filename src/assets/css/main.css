@@ -87,7 +87,7 @@ a {
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.137);
 }
 
-.projects .projects__project-container > img {
+.projects .projects__project-container > .img-off {
     display: none;
 }
 
@@ -154,7 +154,7 @@ a {
         padding: 0 !important;
     }
 
-    .projects .projects__project-container > img {
+    .projects .projects__project-container > .img-off {
         display: flex;
         width: 100%;
         object-fit: cover;
